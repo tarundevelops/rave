@@ -1,7 +1,7 @@
 const jbtn=document.querySelectorAll(".j_btn")
 const j_img=document.querySelectorAll(".j_img")
 
-const j_p=document.querySelector(".j_p")
+// const j_p=document.querySelector(".j_p")
 
 jbtn.forEach((e,i)=>{
     if(i===0){
@@ -145,11 +145,11 @@ function callback(mutationsList, observer) {
                 jbtn[7].classList.remove("j_btn_bbcw")
                 jbtn[8].classList.remove("j_btn_bbcw")
 
-                j_p.classList.add("d-none")
-                j_p.innerHTML="Journey Text 1"
-                setTimeout(()=>{
-                    j_p.classList.remove("d-none")
-                },1000)
+                // j_p.classList.add("d-none")
+                // j_p.innerHTML="Journey Text 1"
+                // setTimeout(()=>{
+                //     j_p.classList.remove("d-none")
+                // },1000)
 
                 
             } else if(j_img[1].classList.contains("active")){
@@ -163,11 +163,11 @@ function callback(mutationsList, observer) {
                 jbtn[7].classList.remove("j_btn_bbcw")
                 jbtn[8].classList.remove("j_btn_bbcw")
 
-                j_p.classList.add("d-none")
-                j_p.innerHTML="Journey Text 2"
-                setTimeout(()=>{
-                    j_p.classList.remove("d-none")
-                },1000)
+                // j_p.classList.add("d-none")
+                // j_p.innerHTML="Journey Text 2"
+                // setTimeout(()=>{
+                //     j_p.classList.remove("d-none")
+                // },1000)
 
 
             }else if(j_img[2].classList.contains("active")){
@@ -181,11 +181,11 @@ function callback(mutationsList, observer) {
                 jbtn[7].classList.remove("j_btn_bbcw")
                 jbtn[8].classList.remove("j_btn_bbcw")
                
-                j_p.classList.add("d-none")
-                j_p.innerHTML="Journey Text 3"
-                setTimeout(()=>{
-                    j_p.classList.remove("d-none")
-                },1000)
+                // j_p.classList.add("d-none")
+                // j_p.innerHTML="Journey Text 3"
+                // setTimeout(()=>{
+                //     j_p.classList.remove("d-none")
+                // },1000)
 
 
             }else if(j_img[3].classList.contains("active")){
@@ -199,11 +199,11 @@ function callback(mutationsList, observer) {
                 jbtn[7].classList.remove("j_btn_bbcw")
                 jbtn[8].classList.remove("j_btn_bbcw")
                
-                j_p.classList.add("d-none")
-                j_p.innerHTML="Journey Text 4"
-                setTimeout(()=>{
-                    j_p.classList.remove("d-none")
-                },1000)
+                // j_p.classList.add("d-none")
+                // j_p.innerHTML="Journey Text 4"
+                // setTimeout(()=>{
+                //     j_p.classList.remove("d-none")
+                // },1000)
 
           
             }else if(j_img[4].classList.contains("active")){
@@ -217,11 +217,11 @@ function callback(mutationsList, observer) {
                 jbtn[7].classList.remove("j_btn_bbcw")
                 jbtn[8].classList.remove("j_btn_bbcw")
            
-                j_p.classList.add("d-none")
-                j_p.innerHTML="Journey Text 5"
-                setTimeout(()=>{
-                    j_p.classList.remove("d-none")
-                },1000)
+                // j_p.classList.add("d-none")
+                // j_p.innerHTML="Journey Text 5"
+                // setTimeout(()=>{
+                //     j_p.classList.remove("d-none")
+                // },1000)
 
             }else if(j_img[5].classList.contains("active")){
                 jbtn[5].classList.add("j_btn_bbcw")
@@ -234,11 +234,11 @@ function callback(mutationsList, observer) {
                 jbtn[7].classList.remove("j_btn_bbcw")
                 jbtn[8].classList.remove("j_btn_bbcw")
 
-                j_p.classList.add("d-none")
-                j_p.innerHTML="Journey Text 6"
-                setTimeout(()=>{
-                    j_p.classList.remove("d-none")
-                },1000)
+                // j_p.classList.add("d-none")
+                // j_p.innerHTML="Journey Text 6"
+                // setTimeout(()=>{
+                //     j_p.classList.remove("d-none")
+                // },1000)
 
            
             }else if(j_img[6].classList.contains("active")){
@@ -252,11 +252,11 @@ function callback(mutationsList, observer) {
                 jbtn[8].classList.remove("j_btn_bbcw")
                 jbtn[0].classList.remove("j_btn_bbcw")
 
-                j_p.classList.add("d-none")
-                j_p.innerHTML="Journey Text 7"
-                setTimeout(()=>{
-                    j_p.classList.remove("d-none")
-                },1000)
+                // j_p.classList.add("d-none")
+                // j_p.innerHTML="Journey Text 7"
+                // setTimeout(()=>{
+                //     j_p.classList.remove("d-none")
+                // },1000)
 
            
             }else if(j_img[7].classList.contains("active")){
@@ -270,11 +270,11 @@ function callback(mutationsList, observer) {
                 jbtn[0].classList.remove("j_btn_bbcw")
                 jbtn[8].classList.remove("j_btn_bbcw")
                
-                j_p.classList.add("d-none")
-                j_p.innerHTML="Journey Text 8"
-                setTimeout(()=>{
-                    j_p.classList.remove("d-none")
-                },1000)
+                // j_p.classList.add("d-none")
+                // j_p.innerHTML="Journey Text 8"
+                // setTimeout(()=>{
+                //     j_p.classList.remove("d-none")
+                // },1000)
 
            
             }else if(j_img[8].classList.contains("active")){
@@ -288,11 +288,11 @@ function callback(mutationsList, observer) {
                 jbtn[6].classList.remove("j_btn_bbcw")
                 jbtn[7].classList.remove("j_btn_bbcw")
            
-                j_p.classList.add("d-none")
-                j_p.innerHTML="Journey Text 9"
-                setTimeout(()=>{
-                    j_p.classList.remove("d-none")
-                },1000)
+                // j_p.classList.add("d-none")
+                // j_p.innerHTML="Journey Text 9"
+                // setTimeout(()=>{
+                //     j_p.classList.remove("d-none")
+                // },1000)
 
             }
         }
